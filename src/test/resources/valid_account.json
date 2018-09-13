@@ -1,0 +1,10 @@
+{
+  "address": "0x9566AC7630F7075a981670709de09ff9c3032D9c",
+  "accessLevel": 1,
+  "permissions": [
+    "create_entity",
+    "register_account"
+  ],
+  "registeredBy": "0xb0B0aA0d17C9b2B527bBc9D69bd093ab47fEBEb0",
+  "registeredOn": 1536223596
+}

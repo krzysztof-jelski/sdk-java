@@ -1,0 +1,16 @@
+{
+  "type": "ambrosus.asset.location",
+  "name": "Denner",
+  "city": "Yverdon-les-Bains",
+  "country": "Switzerland",
+  "location": {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.641192,
+        46.779343,
+        12.2
+      ]
+    }
+  }
+}

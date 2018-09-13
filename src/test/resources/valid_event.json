@@ -1,0 +1,27 @@
+{
+  "content": {
+    "idData": {
+      "createdBy": "0x9566AC7630F7075a981670709de09ff9c3032D9c",
+      "accessLevel": 0,
+      "assetId": "0x30dbe10b0596e03810a051542302488fd45f8cc5a441cf202fd4b3ece4317f5e",
+      "dataHash": "0xfa3e252c199657c116e7ada2b8ae083fac7e0915c8abf059dc6af6b02f2f7d21",
+      "timestamp": 1533824995
+    },
+    "data": [
+      {
+        "customField": "customValue",
+        "type": "ambrosus.event.customevent"
+      },
+      {
+        "name": "Product placed on shelf",
+        "type": "ambrosus.event.message"
+      }
+    ],
+    "signature": "0x4aacdf5e771a1b5724d99ebdfd6cdb33b2fbd7c893e5f8b509e2df4e36d004fd62015d67901bc7d78a92520c9536894b7042c73ad2821b7dff6a1b90782a184c1b"
+  },
+  "eventId": "0x5d3b2a65e3897283df06b5625cb85c8842c6a952e523c33ffcecb96ee4c53ea9",
+  "metadata": {
+    "bundleId": "0xe7e226f8e5c1ecbb947d1a268b97e2eead7306b81d79c8e257188204ccc9e1c8",
+    "entityUploadTimestamp": 1533824998
+  }
+}

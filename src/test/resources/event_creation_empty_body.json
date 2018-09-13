@@ -1,0 +1,19 @@
+{
+  "content": {
+    "idData": {
+      "accessLevel": 0,
+      "assetId": "0x0123456789012345678901234567890123456789012345678901234567890123",
+      "createdBy": "0xFCAd0B19bB29D4674531d6f115237E16AfCE377c",
+      "dataHash": "0x1eb0986936c680f45034829401ab61a4e8f6785b5e8cd19f8c160062ccb37fb7",
+      "timestamp": 2
+    },
+    "data": [
+      {
+        "a": "z",
+        "type": "ambrosus.event.test",
+        "z": "a"
+      }
+    ],
+    "signature": "0xd472ae0101266420ab3a0fa7ba0f2dc9dddd28deb1b4ad63910f4897b108100f327ca8470cb3e24c383b02bcaec4ee3267ec576eac66ae066b03e6aa4d8afdcf1c"
+  }
+}

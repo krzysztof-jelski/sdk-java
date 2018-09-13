@@ -1,0 +1,28 @@
+{
+  "results": [
+    {
+      "content": {
+        "idData": {
+          "createdBy": "0x9566AC7630F7075a981670709de09ff9c3032D9c",
+          "accessLevel": 0,
+          "assetId": "0xd7fecb935690d572056a118d56292f954ce256cf5ee54258a227c79edb702a92",
+          "dataHash": "0xfa3e252c199657c116e7ada2b8ae083fac7e0915c8abf059dc6af6b02f2f7d21",
+          "timestamp": 1533825068
+        },
+        "data": [
+          {
+            "customField": "customValue",
+            "type": "ambrosus.event.customevent"
+          }
+        ],
+        "signature": "0x0b8a4ab5a0766bdb3fb422a97703b51a205fdb85527a97d4a4a3204a53d668b365eb0ba110b11991b77db0531918fa92b1ab2aec5ab76366766e725190c85e791c"
+      },
+      "eventId": "0x2d0774967bd70e65a25d328e00ccbe874546b1e5adb64e3b276497e6359e6fac",
+      "metadata": {
+        "bundleId": "0xc42e85e084ab89450c84fc78f1ad9d458883618d694d9ab04d36bace66ec5e9f",
+        "entityUploadTimestamp": 1533825071
+      }
+    }
+  ],
+  "resultCount": 1
+}

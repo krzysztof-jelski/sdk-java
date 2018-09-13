@@ -1,0 +1,254 @@
+{
+  "results": [
+    {
+      "content": {
+        "idData": {
+          "accessLevel": 0,
+          "assetId": "0x8b0e980ff6f79cde97ae9ed268e5a41e0dfba37adf16ae340cd76a669a623e43",
+          "createdBy": "0x9566AC7630F7075a981670709de09ff9c3032D9c",
+          "dataHash": "0x9e315931105092099dff220327c36bd77e53487aa182b2d715d9b8311f4d06b5",
+          "timestamp": 1525938540
+        },
+        "data": [
+          {
+            "name": "Product placed on shelf",
+            "type": "ambrosus.event.message"
+          }
+        ],
+        "signature": "0xd56ed77c9be65d5f061d1baf9a66f1bdbe3a3558d97f50e3d1432d46b905ffe07ffe4b6c1e4d4a170a8f957a19282f78c28fec96824a32cd65b8837a660c037a1b"
+      },
+      "eventId": "0x560bb04fc486fa6825700aa26553dac2495397c9048b544c6d363df722cab798",
+      "metadata": {
+        "bundleId": "0xab711096148e484dc5e3160c383038decfdf4107388e0ebe425323bc2668d208",
+        "entityUploadTimestamp": 1536326144
+      }
+    },
+    {
+      "content": {
+        "idData": {
+          "accessLevel": 0,
+          "assetId": "0x8b0e980ff6f79cde97ae9ed268e5a41e0dfba37adf16ae340cd76a669a623e43",
+          "createdBy": "0x9566AC7630F7075a981670709de09ff9c3032D9c",
+          "dataHash": "0x1573d621279151100c1eebb30e3c48138ce1ce4bf324dc8e7539637d07340993",
+          "timestamp": 1525673400
+        },
+        "data": [
+          {
+            "name": "Delivered at the store",
+            "status": "delivered",
+            "vehicle": "truck",
+            "type": "ambrosus.event.transport"
+          },
+          {
+            "type": "ambrosus.asset.location",
+            "name": "Denner",
+            "city": "Yverdon-les-Bains",
+            "country": "Switzerland",
+            "location": {
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  6.641192,
+                  46.779343
+                ]
+              }
+            }
+          }
+        ],
+        "signature": "0xf374b7fac9bd6a19451f76cd3b265ab6449db5eda7063d69a947705dd99b45a80735aea309308dd0afb65e8db628f5db30795ae0aebb62977812fc6c375df2b21b"
+      },
+      "eventId": "0x23e9f2f8b552b5708d40fea4b0508fbabd820c2a9fff2943188dfed984731e16",
+      "metadata": {
+        "bundleId": "0xab711096148e484dc5e3160c383038decfdf4107388e0ebe425323bc2668d208",
+        "entityUploadTimestamp": 1536326144
+      }
+    },
+    {
+      "content": {
+        "idData": {
+          "accessLevel": 0,
+          "assetId": "0x8b0e980ff6f79cde97ae9ed268e5a41e0dfba37adf16ae340cd76a669a623e43",
+          "createdBy": "0x9566AC7630F7075a981670709de09ff9c3032D9c",
+          "dataHash": "0x61717d49b2c367976a42d02fd49ce3628dc651d2331bc020c623ba5aa37fe976",
+          "timestamp": 1525447860
+        },
+        "data": [
+          {
+            "name": "Processed at distribution centre",
+            "status": "processed",
+            "vehicle": "truck",
+            "type": "ambrosus.event.transport"
+          },
+          {
+            "type": "ambrosus.asset.location",
+            "name": "Distribution centre",
+            "city": "Altendorf",
+            "country": "Switzerland",
+            "location": {
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  8.845333,
+                  47.187339
+                ]
+              }
+            }
+          }
+        ],
+        "signature": "0x4fed213478314e12ac26ddc606eb060b4a8d51c1065c860e44d96bb4ae4a08a57df1d08eb23c953c0b1dedbb3bcf125ee13e4423e4efc62b3e86361ff0e52a471b"
+      },
+      "eventId": "0xf20ae5a53fc0df08ace62f603074d8fd90ef2cb0925e9b01cefef47a9d11e44d",
+      "metadata": {
+        "bundleId": "0xab711096148e484dc5e3160c383038decfdf4107388e0ebe425323bc2668d208",
+        "entityUploadTimestamp": 1536326144
+      }
+    },
+    {
+      "content": {
+        "idData": {
+          "accessLevel": 0,
+          "assetId": "0x8b0e980ff6f79cde97ae9ed268e5a41e0dfba37adf16ae340cd76a669a623e43",
+          "createdBy": "0x9566AC7630F7075a981670709de09ff9c3032D9c",
+          "dataHash": "0x00e26d9f9eb452484d0165e0f51d3aa968beb36d11890314f2fb397704608637",
+          "timestamp": 1525348800
+        },
+        "data": [
+          {
+            "name": "Transshipped",
+            "status": "transshipped",
+            "vehicle": "train",
+            "type": "ambrosus.event.transport"
+          },
+          {
+            "type": "ambrosus.asset.location",
+            "name": "SNCF freight center",
+            "city": "Tarbes",
+            "country": "France",
+            "location": {
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  0.068417,
+                  43.240469
+                ]
+              }
+            }
+          }
+        ],
+        "signature": "0x071d1af26e29d8a224da8f318f1d41d2295ce59caa3afe3e49da7035ab2c5abb024ab3d32b9c0c3968095332283a720db91b0f6a3defd2184475a9803ad7ea271b"
+      },
+      "eventId": "0x7ad3b2ffb8fe57e9f14c99e7a559090f125b1bce3064fa4ecc5fc6d25e2c0842",
+      "metadata": {
+        "bundleId": "0xab711096148e484dc5e3160c383038decfdf4107388e0ebe425323bc2668d208",
+        "entityUploadTimestamp": 1536326144
+      }
+    },
+    {
+      "content": {
+        "idData": {
+          "accessLevel": 0,
+          "assetId": "0x8b0e980ff6f79cde97ae9ed268e5a41e0dfba37adf16ae340cd76a669a623e43",
+          "createdBy": "0x9566AC7630F7075a981670709de09ff9c3032D9c",
+          "dataHash": "0x2924b74f5c2057561d7b420e4644a0dcbfe6e76ba24afde25ee5e2bcaabc0b4d",
+          "timestamp": 1525334400
+        },
+        "data": [
+          {
+            "name": "Left factory",
+            "status": "shipped",
+            "vehicle": "truck",
+            "type": "ambrosus.event.transport"
+          },
+          {
+            "type": "ambrosus.asset.location",
+            "name": "Lindt & Sprüngli factory",
+            "city": "Oloron-Sainte-Marie",
+            "country": "France",
+            "location": {
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -0.617058,
+                  43.193075
+                ]
+              }
+            }
+          }
+        ],
+        "signature": "0xaf6f397bb815b580c25874ddce9ef03dbac60c182637c28cb78d159c9dc43b3839395857110d976f78be85578b571f6875eef0d9e02ec6cd04e14406830159731c"
+      },
+      "eventId": "0x7e25649cfbb248dd7e136ce99d379afebd3779938a7e83887ce0b401429d21df",
+      "metadata": {
+        "bundleId": "0xab711096148e484dc5e3160c383038decfdf4107388e0ebe425323bc2668d208",
+        "entityUploadTimestamp": 1536326144
+      }
+    },
+    {
+      "content": {
+        "idData": {
+          "accessLevel": 0,
+          "assetId": "0x8b0e980ff6f79cde97ae9ed268e5a41e0dfba37adf16ae340cd76a669a623e43",
+          "createdBy": "0x9566AC7630F7075a981670709de09ff9c3032D9c",
+          "dataHash": "0xddd47085fd446c3bc4fcaa4af4f35c775244bdbfa0d7ba05fc1cf6065a8ea2ad",
+          "timestamp": 1525157520
+        },
+        "data": [
+          {
+            "name": "Product manufactured",
+            "type": "ambrosus.event.message"
+          }
+        ],
+        "signature": "0xf4cac34d3997bbb0af743b8ed389a1edeb5ba262ce02ac605f2e6d82a07abc0b5206efaf2b9000c99ca06ac2ac062767a65da03b7516d6518d56b3e45182f5ca1b"
+      },
+      "eventId": "0xe9e726f356d3335144d1c70b454eba111b24e6d9fc6ee4e582e3b9b124d9a434",
+      "metadata": {
+        "bundleId": "0xab711096148e484dc5e3160c383038decfdf4107388e0ebe425323bc2668d208",
+        "entityUploadTimestamp": 1536326144
+      }
+    },
+    {
+      "content": {
+        "idData": {
+          "accessLevel": 0,
+          "assetId": "0x8b0e980ff6f79cde97ae9ed268e5a41e0dfba37adf16ae340cd76a669a623e43",
+          "createdBy": "0x9566AC7630F7075a981670709de09ff9c3032D9c",
+          "dataHash": "0x9c08b8b8b22fc540905434c606d3728b0ae8c3a65249d6e8e31a96b4a6024158",
+          "timestamp": 1483225200
+        },
+        "data": [
+          {
+            "type": "ambrosus.asset.info",
+            "name": "Excellence 85%",
+            "Product Information": {
+              "brand": "Lindt & Sprüngli",
+              "weight": "0.1kg",
+              "category": "Staple food"
+            },
+            "images": {
+              "default": {
+                "url": "https://www.lindt.ch/fr/shop/media/catalog/product/cache/11/thumbnail/405x400/9df78eab33525d08d6e5fb8d27136e95/6/1/612881-excellence_85_cacao.png"
+              }
+            },
+            "Localized Product Name": {
+              "fr": "Excellence 85% cacao",
+              "de": "Excellence 85% kakao",
+              "en": "Excellence 85% cocoa"
+            },
+            "Localized Ingredients": {
+              "fr": "Pâte de cacao, cacao maigre, beurre de cacao, cassonade, vanille Bourbone naturelle en gousse. Peut des fruits à coque, du lait, du soja, des graines de sésame et du blé.",
+              "de": "Kakaomasse, fettarmes Kakaopulver, Kakaobutter, Rohrzucker, natürliche Bourbon Vanilleschoten. Kann Schalenfrüchte, Milch, Soja, Sesamsamen und Weizen enthalten. Kakao: 85% mindestens.",
+              "en": "Cocoa mass, fat-reduced cocoa, cocoa butter, Demerara sugar, natural bourbon vanilla beans, Cacao solids: 85% min. Allergy Text May Contain Nuts, Milk, Soya, Sesame Seeds and Wheat"
+            }
+          }
+        ],
+        "signature": "0xc324cba7e317e3e9be8d59b6e092cf0ba29a18c9131cda57a4daf56503b10ab6106595464a613d2b73bf233855c5a8d99a2cebb9ebff649c31b0c4b946f0d5941b"
+      },
+      "eventId": "0xfc22d91ff64a06f461bb5bbaf00cdcb9198defe92ee68b427dbc02d8908695e1",
+      "metadata": {
+        "bundleId": "0xab711096148e484dc5e3160c383038decfdf4107388e0ebe425323bc2668d208",
+        "entityUploadTimestamp": 1536326144
+      }
+    }
+  ],
+  "resultCount": 7
+}

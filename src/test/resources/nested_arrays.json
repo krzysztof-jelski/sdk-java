@@ -1,0 +1,16 @@
+{
+  "array": [
+    "a",
+    "b",
+    "c"
+  ],
+  "outerArray": [
+    [
+      {
+        "b": 2,
+        "a": 1
+      },
+      "innerArrayPrimitiveValue"
+    ]
+  ]
+}

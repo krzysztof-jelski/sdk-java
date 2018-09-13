@@ -1,0 +1,69 @@
+{
+  "content": {
+    "idData": {
+      "assetId": "0x201595757ad1a1f916fb8aa734a5935d3fd902fbcc8071fbb135cc3225ddb28d",
+      "createdBy": "0xb0B0aA0d17C9b2B527bBc9D69bd093ab47fEBEb0",
+      "accessLevel": 0,
+      "timestamp": 1530807755,
+      "dataHash": "0xe658f4dad6e41edb44c63a3ed1f085ecc048f1b386c4d073cef0eae5380b8578"
+    },
+    "data": [
+      {
+        "type": "ambrosus.event.shipped",
+        "name": "Departure from Port to Warehouse",
+        "destination": "Warehouse"
+      },
+      {
+        "type": "ambrosus.event.location",
+        "location": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              50.909704,
+              -1.4357131
+            ]
+          }
+        },
+        "name": "Port of Southampton",
+        "city": "Southampton",
+        "country": "MG",
+        "locationId": "809c578721b74cae1d56504594819285",
+        "GLN": 9501101530003
+      },
+      {
+        "type": "ambrosus.event.qualityControlled",
+        "name": "Quality Control",
+        "Test Results": [
+          {
+            "type": "ambrosus.sensor.temperature",
+            "value": 12.5,
+            "unit": "celsius"
+          },
+          {
+            "type": "ambrosus.sensor.humidity",
+            "value": 54,
+            "unit": "RH"
+          },
+          {
+            "type": "ambrosus.sensor.light",
+            "value": 220,
+            "unit": "lux"
+          },
+          {
+            "type": "ambrosus.sensor.shock",
+            "value": 0.3,
+            "unit": "g",
+            "option": "max normalized value (without gravity)"
+          }
+        ]
+      }
+    ],
+    "signature": "0xf6ee2365d79d08cc7cc619bb9236d6228a6663f88f8b2d480848c075738bcecc694298892e9b2287b50103d7592650d5a759de152f4d5c029e4f2e3bbead8c2f1c"
+  },
+  "eventId": "0xe488bb9fe587376f241d5a2b751570c1708df3e94b4c408027508d410a18581f",
+  "metadata": {
+    "bundleId": "0xe7ad1ace41f3687a14af24c337c7882bd66985a0de8f1e544b78131bfdfe1e8f",
+    "entityUploadTimestamp": 1530722105
+  }
+}
