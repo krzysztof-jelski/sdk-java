@@ -40,10 +40,10 @@ implementation project(path: ':sdk')
 Simply add the .jar release of the SDK as a JAR dependency to your project.
 
 ## API Documentation
-The documentation is located in the [docs folder](../master/doc).
+The documentation is located in the [docs folder](https://github.com/ambrosus/sdk-java/tree/master/doc).
 
 ## Examples
-See the [example folder](../master/src/main/java/com.ambrosus.examples).
+See the [example folder](https://github.com/ambrosus/sdk-java/tree/master/src/main/java/com/ambrosus/examples/SDKUsage.java).
 
 ## Documentation
 For a basic usage of the SDK, see directly the com.ambrosus.examples.
