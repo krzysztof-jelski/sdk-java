@@ -105,6 +105,10 @@ public class AmbrosusSDK {
         return t;
     }
 
+    public String toJson(Object src) {
+        return gson.toJson(src);
+    }
+
 
     private void createGson() {
 
