@@ -127,6 +127,7 @@ public class AmbrosusSDK {
         gsonBuilder.registerTypeAdapter(Asset.class, new Asset.Adapter(keyPair));
         gsonBuilder.registerTypeAdapter(Event.class, new Event.Adapter(keyPair));
         gsonBuilder.registerTypeAdapter(Account.class, new Account.Adapter());
+        gsonBuilder.registerTypeAdapter(GroupToken.class, new GroupToken.Adapter(keyPair, getAddress()));
         gsonBuilder.registerTypeAdapter(new TypeToken<List<EventData>>() {
         }.getType(), new EventData.Adapter(eventTypes));
 
@@ -639,6 +640,12 @@ public class AmbrosusSDK {
 
         sequenceNumber = (sequenceNumber + 1) % MAX_SEQUENCE_NUMBER;
         return sequenceNumber;
+    }
+
+    public String createGroupToken(long validUntil) {
+        GroupToken groupToken = new GroupToken(validUntil);
+        String serializedGroupTokenJson = gson.toJson(groupToken);
+        return java.util.Base64.getEncoder().encodeToString(serializedGroupTokenJson.getBytes());
     }
 
 
